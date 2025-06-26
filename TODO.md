@@ -1,0 +1,3 @@
+- chrome extension to add word
+- https://github.com/espeak-ng/espeak-ng
+- https://github.com/festvox/festival
