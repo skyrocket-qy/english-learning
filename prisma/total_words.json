@@ -8202,7 +8202,7 @@
   {
     "word": "bore",
     "part_of_speech": "v.",
-    "translate": "使厭煩"
+    "translate": "使厭煩;承擔"
   },
   {
     "word": "find",
@@ -11737,7 +11737,7 @@
   {
     "word": "desperate",
     "part_of_speech": "adj.",
-    "translate": "極度渴望的"
+    "translate": "極度渴望的;絕望的"
   },
   {
     "word": "toll",
@@ -13812,7 +13812,7 @@
   {
     "word": "curriculum",
     "part_of_speech": "n.",
-    "translate": "學校的全部課程"
+    "translate": "學校的全部課程;課程"
   },
   {
     "word": "alley",
@@ -13902,7 +13902,7 @@
   {
     "word": "maid",
     "part_of_speech": "n.",
-    "translate": "侍女;女僕"
+    "translate": "侍女;女傭;女僕"
   },
   {
     "word": "exhibit",
@@ -15407,7 +15407,7 @@
   {
     "word": "woe",
     "part_of_speech": "n.",
-    "translate": "悲哀;災難"
+    "translate": "悲哀;災難;禍害"
   },
   {
     "word": "fluid",
@@ -16357,7 +16357,7 @@
   {
     "word": "fare",
     "part_of_speech": "n.",
-    "translate": "(交通工具的)票價,車(船)費"
+    "translate": "(交通工具的)票價,車(船)費;票價"
   },
   {
     "word": "guess",
@@ -17172,7 +17172,7 @@
   {
     "word": "heed",
     "part_of_speech": "v.",
-    "translate": "注意;留心"
+    "translate": "注意;留心;聽從"
   },
   {
     "word": "stroke",
@@ -20332,7 +20332,7 @@
   {
     "word": "stroll",
     "part_of_speech": "v.",
-    "translate": "散步;溜達"
+    "translate": "散步;溜達;漫步"
   },
   {
     "word": "audio",
@@ -20387,7 +20387,7 @@
   {
     "word": "nerve",
     "part_of_speech": "n.",
-    "translate": "神經"
+    "translate": "勇氣;神經;膽量"
   },
   {
     "word": "tune",
@@ -21307,7 +21307,7 @@
   {
     "word": "poetic",
     "part_of_speech": "adj.",
-    "translate": "詩的;韻文的"
+    "translate": "詩意的;詩的;韻文的"
   },
   {
     "word": "monotonous",
@@ -21407,7 +21407,7 @@
   {
     "word": "knit",
     "part_of_speech": "v.",
-    "translate": "編織"
+    "translate": "編織;針織"
   },
   {
     "word": "smack",
@@ -22082,7 +22082,7 @@
   {
     "word": "cherish",
     "part_of_speech": "v.",
-    "translate": "愛護;撫育"
+    "translate": "愛護;撫育;珍惜"
   },
   {
     "word": "nine",
@@ -22782,7 +22782,7 @@
   {
     "word": "edible",
     "part_of_speech": "adj.",
-    "translate": "可食的,食用的"
+    "translate": "可食的,食用的;食用的"
   },
   {
     "word": "seal",
@@ -36432,7 +36432,7 @@
   {
     "word": "savage",
     "part_of_speech": "adj.",
-    "translate": "兇猛的;殘酷的;野性的"
+    "translate": "兇猛的;殘酷的;野性的;野蠻的"
   },
   {
     "word": "guidance",
@@ -39342,7 +39342,7 @@
   {
     "word": "hollow",
     "part_of_speech": "adj.",
-    "translate": "凹陷的;空的"
+    "translate": "凹陷的;空洞的;空的"
   },
   {
     "word": "tip",
@@ -40097,7 +40097,7 @@
   {
     "word": "marvelous",
     "part_of_speech": "adj.",
-    "translate": "了不起的"
+    "translate": "了不起的;奇妙的"
   },
   {
     "word": "assault",
@@ -40197,7 +40197,7 @@
   {
     "word": "tale",
     "part_of_speech": "n.",
-    "translate": "故事,傳說;謊話"
+    "translate": "壞話;故事;故事,傳說;謊話"
   },
   {
     "word": "amazement",
@@ -41447,7 +41447,7 @@
   {
     "word": "mate",
     "part_of_speech": "n.",
-    "translate": "同伴,伙伴"
+    "translate": "伴侶;同伴,伙伴"
   },
   {
     "word": "bright",
@@ -47442,7 +47442,7 @@
   {
     "word": "deceit",
     "part_of_speech": "n.",
-    "translate": "騙術"
+    "translate": "欺騙;騙術"
   },
   {
     "word": "foist",
@@ -48217,7 +48217,7 @@
   {
     "word": "tenet",
     "part_of_speech": "n.",
-    "translate": "信條;教義"
+    "translate": "信條;宗旨;教義"
   },
   {
     "word": "tenure",
@@ -48442,7 +48442,7 @@
   {
     "word": "venue",
     "part_of_speech": "n.",
-    "translate": "(事件、行動等的)發生地"
+    "translate": "(事件、行動等的)發生地;場地"
   },
   {
     "word": "abvent",
@@ -50475,11 +50475,6 @@
     "translate": "支持者"
   },
   {
-    "word": "mate",
-    "part_of_speech": "n.",
-    "translate": "伴侶"
-  } ,
-  {
     "word": "trousseau",
     "part_of_speech": "n.",
     "translate": "嫁妝"
@@ -50495,16 +50490,6 @@
     "translate": "當鋪"
   },
   {
-    "word": "marvelous",
-    "part_of_speech": "adj.",
-    "translate": "奇妙的"
-  },
-  {
-    "word": "venue",
-    "part_of_speech": "n.",
-    "translate": "場地"
-  },
-  {
     "word": "tardiness",
     "part_of_speech": "n.",
     "translate": "遲到"
@@ -50513,11 +50498,6 @@
     "word": "spinster",
     "part_of_speech": "n.",
     "translate": "老處女"
-  },
-  {
-    "word": "desperate",
-    "part_of_speech": "adj.",
-    "translate": "絕望的"
   },
   {
     "word": "kindred",
@@ -50550,34 +50530,9 @@
     "translate": "抖動"
   },
   {
-    "word": "tale",
-    "part_of_speech": "n.",
-    "translate": "故事;壞話"
-  },
-  {
     "word": "tinkering",
     "part_of_speech": "v.",
     "translate": "修補"
-  },
-  {
-    "word": "maid",
-    "part_of_speech": "n.",
-    "translate": "女傭"
-  },
-  {
-    "word": "abrupt",
-    "part_of_speech": "adj.",
-    "translate": "突然的"
-  },
-  {
-    "word": "woe",
-    "part_of_speech": "n.",
-    "translate": "禍害"
-  },
-  {
-    "word": "virtue",
-    "part_of_speech": "n.",
-    "translate": "美德;優點"
   },
   {
     "word": "ablaze",
@@ -50585,29 +50540,9 @@
     "translate": "燃燒的"
   },
   {
-    "word": "surge",
-    "part_of_speech": "n.",
-    "translate": "波濤"
-  },
-  {
-    "word": "broom",
-    "part_of_speech": "n.",
-    "translate": "掃帚"
-  },
-  {
-    "word": "curriculum",
-    "part_of_speech": "n.",
-    "translate": "課程"
-  },
-  {
     "word": "squander",
     "part_of_speech": "v.",
     "translate": "揮霍"
-  },
-  {
-    "word": "bog",
-    "part_of_speech": "n.",
-    "translate": "沼澤"
   },
   {
     "word": "enchant",
@@ -50617,27 +50552,12 @@
   {
     "word": "sanctity",
     "part_of_speech": "n.",
-    "translate": "神聖性;尊嚴"
+    "translate": "尊嚴;神聖性"
   },
   {
     "word": "stand out",
     "part_of_speech": "v.",
     "translate": "脫穎而出"
-  },
-  {
-    "word": "shatter",
-    "part_of_speech": "v.",
-    "translate": "粉碎"
-  },
-  {
-    "word": "probation",
-    "part_of_speech": "n.",
-    "translate": "緩刑"
-  },
-  {
-    "word": "coffin",
-    "part_of_speech": "n.",
-    "translate": "棺材"
   },
   {
     "word": "casket",
@@ -50648,11 +50568,6 @@
     "word": "huddle up",
     "part_of_speech": "v.",
     "translate": "蜷縮"
-  },
-  {
-    "word": "nerve",
-    "part_of_speech": "n.",
-    "translate": "神經;膽量;勇氣"
   },
   {
     "word": "caper",
@@ -50675,19 +50590,9 @@
     "translate": "魯莽的"
   },
   {
-    "word": "fare",
-    "part_of_speech": "n.",
-    "translate": "票價"
-  },
-  {
     "word": "soiree",
     "part_of_speech": "n.",
     "translate": "晚會"
-  },
-  {
-    "word": "tenet",
-    "part_of_speech": "n.",
-    "translate": "宗旨"
   },
   {
     "word": "recitation",
@@ -50705,11 +50610,6 @@
     "translate": "氣概"
   },
   {
-    "word": "cherish",
-    "part_of_speech": "v.",
-    "translate": "珍惜"
-  },
-  {
     "word": "juggling",
     "part_of_speech": "n.",
     "translate": "戲法"
@@ -50718,16 +50618,6 @@
     "word": "splendid",
     "part_of_speech": "v.",
     "translate": "燦爛的"
-  },
-  {
-    "word": "savage",
-    "part_of_speech": "adj.",
-    "translate": "野蠻的"
-  },
-  {
-    "word": "poetic",
-    "part_of_speech": "adj.",
-    "translate": "詩意的"
   },
   {
     "word": "chaperone",
@@ -50745,11 +50635,6 @@
     "translate": "複雜的"
   },
   {
-    "word": "knit",
-    "part_of_speech": "v.",
-    "translate": "針織"
-  },
-  {
     "word": "heathen",
     "part_of_speech": "n.",
     "translate": "異教徒"
@@ -50765,19 +50650,9 @@
     "translate": "擁抱"
   },
   {
-    "word": "eligible",
-    "part_of_speech": "adj.",
-    "translate": "有資格的"
-  },
-  {
     "word": "bosom",
     "part_of_speech": "adj.",
     "translate": "親密的"
-  },
-  {
-    "word": "stroll",
-    "part_of_speech": "v.",
-    "translate": "漫步"
   },
   {
     "word": "lineage",
@@ -50788,11 +50663,6 @@
     "word": "shrouded",
     "part_of_speech": "v.",
     "translate": "籠罩"
-  },
-  {
-    "word": "orphanage",
-    "part_of_speech": "n.",
-    "translate": "孤兒院"
   },
   {
     "word": "bathtub",
@@ -50807,12 +50677,7 @@
   {
     "word": "vex",
     "part_of_speech": "v.",
-    "translate": "惱怒"
-  },
-  {
-    "word": "damp",
-    "part_of_speech": "adj.",
-    "translate": "潮濕的"
+    "translate": "惱怒;煩惱"
   },
   {
     "word": "delectable",
@@ -50830,34 +50695,14 @@
     "translate": "雪糕"
   },
   {
-    "word": "escort",
-    "part_of_speech": "v.",
-    "translate": "護送"
-  },
-  {
     "word": "incessant",
     "part_of_speech": "adj.",
     "translate": "不停的"
   },
   {
-    "word": "tyrant",
-    "part_of_speech": "n.",
-    "translate": "暴君"
-  },
-  {
     "word": "obsolete",
     "part_of_speech": "adj.",
     "translate": "過時的"
-  },
-  {
-    "word": "plight",
-    "part_of_speech": "n.",
-    "translate": "困境"
-  },
-  {
-    "word": "heed",
-    "part_of_speech": "v.",
-    "translate": "聽從"
   },
   {
     "word": "moron",
@@ -50875,49 +50720,14 @@
     "translate": "隱約可見的"
   },
   {
-    "word": "lunatic",
-    "part_of_speech": "n.",
-    "translate": "瘋子"
-  },
-  {
-    "word": "pathetic",
-    "part_of_speech": "adj.",
-    "translate": "可憐的"
-  },
-  {
     "word": "tentatively",
     "part_of_speech": "adv.",
     "translate": "估且"
   },
   {
-    "word": "sober",
-    "part_of_speech": "adj.",
-    "translate": "清醒的"
-  },
-  {
-    "word": "hollow",
-    "part_of_speech": "adj.",
-    "translate": "空洞的"
-  },
-  {
-    "word": "bore",
-    "part_of_speech": "v.",
-    "translate": "承擔"
-  },
-  {
     "word": "sprout",
     "part_of_speech": "v.",
     "translate": "發芽"
-  },
-  {
-    "word": "deceit",
-    "part_of_speech": "n.",
-    "translate": "欺騙"
-  },
-  {
-    "word": "vex",
-    "part_of_speech": "v.",
-    "translate": "煩惱"
   },
   {
     "word": "culinary",
@@ -50928,11 +50738,6 @@
     "word": "nappy",
     "part_of_speech": "n.",
     "translate": "尿布"
-  },
-  {
-    "word": "barn",
-    "part_of_speech": "n.",
-    "translate": "穀倉"
   },
   {
     "word": "nausea",
@@ -50965,19 +50770,9 @@
     "translate": "大膽的"
   },
   {
-    "word": "edible",
-    "part_of_speech": "adj.",
-    "translate": "食用的"
-  },
-  {
     "word": "windswept",
     "part_of_speech": "adj.",
     "translate": "風吹雨淋的"
-  },
-  {
-    "word": "tempt",
-    "part_of_speech": "v.",
-    "translate": "誘惑"
   },
   {
     "word": "flesh and bood",
