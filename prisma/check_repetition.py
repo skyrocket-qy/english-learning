@@ -1,24 +1,34 @@
-import json
-import random
+import csv
 from collections import defaultdict
 
-with open('total_words.json', 'r', encoding='utf-8') as file:
-    data = json.load(file)
-    
+input_file = 'total_words.csv'
+output_file = 'total_words.csv'
+
 merged_dict = defaultdict(set)
 
-# Iterate over each entry and merge translations for duplicates
-for entry in data:
-    key = (entry["word"], entry["part_of_speech"])  # Unique key
-    merged_dict[key].update(entry["translate"].split(";"))  # Split by ";"
+# Read and process CSV
+with open(input_file, 'r', encoding='utf-8') as file:
+    reader = csv.DictReader(file)
+    for row in reader:
+        key = (row["word"], row["part_of_speech"])
+        translations = [t.strip() for t in row["translate"].split(";")]
+        merged_dict[key].update(translations)
 
-# Convert merged dictionary back to list format
+# Prepare merged data
 merged_data = [
-    {"word": word, "part_of_speech": pos, "translate": ";".join(sorted(translations))}
+    {
+        "word": word,
+        "part_of_speech": pos,
+        "translate": ";".join(sorted(translations))
+    }
     for (word, pos), translations in merged_dict.items()
 ]
 
-print(len(merged_data))
-  
-with open('total_words.json', 'w', encoding='utf-8') as file:
-    json.dump(merged_data, file, indent=2, ensure_ascii=False)
+# Write back to CSV
+with open(output_file, 'w', encoding='utf-8', newline='') as file:
+    fieldnames = ["word", "part_of_speech", "translate"]
+    writer = csv.DictWriter(file, fieldnames=fieldnames)
+    writer.writeheader()
+    writer.writerows(merged_data)
+
+print(f"Merged entries written: {len(merged_data)}")
