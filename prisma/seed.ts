@@ -1,5 +1,10 @@
 import { PrismaClient } from '@prisma/client';
-import data from './total_words.json';
+import { readFileSync } from 'fs';
+
+const words: Word[] = JSON.parse(
+  readFileSync(new URL('./total_words.json', import.meta.url), 'utf-8')
+);
+
 
 const prisma = new PrismaClient();
 
@@ -9,11 +14,11 @@ interface Word {
   chinese: string;
 }
 
-const words: Word[] = data.map(({ word, translate, part_of_speech }) => ({
-  english: word,
-  partOfSpeech: part_of_speech,
-  chinese: translate
-}));
+// const words: Word[] = data.map(({ english, translate, part_of_speech }) => ({
+//   english: english,
+//   partOfSpeech: part_of_speech,
+//   chinese: translate
+// }));
 
 async function main() {
   // Seed Words
