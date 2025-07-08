@@ -1,6 +1,6 @@
 import { PrismaClient } from '@prisma/client';
 import { NextRequest, NextResponse } from 'next/server';
-import bcrypt from 'bcrypt';
+// import bcrypt from 'bcrypt';
 
 const prisma = new PrismaClient();
 
@@ -16,11 +16,15 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ message: 'Invalid username or password' }, { status: 401 });
     }
 
-    // Compare hashed password
-    const isPasswordValid = await bcrypt.compare(password, user.password);
-    if (!isPasswordValid) {
+    if (user.password != password) {
       return NextResponse.json({ message: 'Invalid username or password' }, { status: 401 });
     }
+
+    // Compare hashed password
+    // const isPasswordValid = await bcrypt.compare(password, user.password);
+    // if (!isPasswordValid) {
+    //   return NextResponse.json({ message: 'Invalid username or password' }, { status: 401 });
+    // }
 
     // Generate a simple session token
     const sessionToken = `session-${Date.now()}-${user.id}`;

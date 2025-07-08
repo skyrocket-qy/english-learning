@@ -25,6 +25,25 @@ export default function WordChallengePage() {
   const [finish, setFinish] = useState<boolean>(false);
   const router = useRouter();
 
+  const chooseNextWord = (wordList: Word[]) => {
+    if (currentIwordInd == 10){
+      setFinish(true);
+      return;
+    }
+    setCurrentWordInd(currentIwordInd+1);
+    const correctWord = wordList[currentIwordInd];
+    const incorrectWords = wordList
+      .filter((word) => word.english !== correctWord.english && word.partOfSpeech !== correctWord.partOfSpeech)
+      .sort(() => 0.5 - Math.random())
+      .slice(0, 3);
+
+    const answerOptions = [...incorrectWords, correctWord].sort(() => 0.5 - Math.random());
+    setCurrentWord(correctWord);
+    setOptions(answerOptions);
+    setMessage('');
+  };
+  
+
   useEffect(() => {
     if (!localStorage.getItem("sessionToken")){
       router.push('/');
@@ -47,24 +66,7 @@ export default function WordChallengePage() {
 
     fetchWords();
   }, []);
-
-  const chooseNextWord = (wordList: Word[]) => {
-    if (currentIwordInd == 10){
-      setFinish(true);
-      return;
-    }
-    setCurrentWordInd(currentIwordInd+1);
-    const correctWord = wordList[currentIwordInd];
-    const incorrectWords = wordList
-      .filter((word) => word.english !== correctWord.english && word.partOfSpeech !== correctWord.partOfSpeech)
-      .sort(() => 0.5 - Math.random())
-      .slice(0, 3);
-
-    const answerOptions = [...incorrectWords, correctWord].sort(() => 0.5 - Math.random());
-    setCurrentWord(correctWord);
-    setOptions(answerOptions);
-    setMessage('');
-  };
+  
 
   const handleAnswerClick = async (selectedChinese: string) => {
     const sessionToken = localStorage.getItem('sessionToken');

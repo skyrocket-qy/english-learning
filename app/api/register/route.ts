@@ -1,11 +1,11 @@
 import { PrismaClient } from '@prisma/client';
 import { NextRequest, NextResponse } from 'next/server';
-import bcrypt from 'bcrypt';
+// import bcrypt from 'bcrypt';
 
 const prisma = new PrismaClient();
 
 export async function POST(req: NextRequest) {
-  return NextResponse.json({ message: 'register method not allowed' }, { status: 400 });
+  // return NextResponse.json({ message: 'register method not allowed' }, { status: 400 });
   const { username, password } = await req.json();
 
   if (!username || !password) {
@@ -23,13 +23,13 @@ export async function POST(req: NextRequest) {
     }
 
     // Hash the password
-    const hashedPassword = await bcrypt.hash(password, 10);
+    // const hashedPassword = await bcrypt.hash(password, 10);
 
     // Create new user
     await prisma.user.create({
       data: {
         name: username,
-        password: hashedPassword,
+        password: password,
       },
     });
 
